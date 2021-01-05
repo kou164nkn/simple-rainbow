@@ -2,23 +2,23 @@
 i=$(($RANDOM % 10))
 
 if [ $i -eq 0 ]; then
-  echo "⁄/*ｲ\`＾ᗜ＾ﾘ ﾍﾟｶｰ"
+  printf '\033[31m%s\033[m\n' "⁄/*ｲ\`＾ᗜ＾ﾘ ﾍﾟｶｰ"
 elif [ $i -eq 1 ]; then
-  echo "@cﾒ˶ˆ ᴗ ˆ˵ﾘ"
+  printf '\033[95m%s\033[m\n' "@cﾒ˶ˆ ᴗ ˆ˵ﾘ"
 elif [ $i -eq 2 ]; then
-  echo "从cι˘σ ᴗ σ˘*"
+  printf '\033[93m%s\033[m\n' "从cι˘σ ᴗ σ˘*"
 elif [ $i -eq 3 ]; then
-  echo "Jσᴗσ |bし"
+  printf '\033[36m%s\033[m\n' "Jσᴗσ |bし"
 elif [ $i -eq 4 ]; then
-  echo "从||˶╹ᗜ╹˶||从"
+  printf '\033[97m%s\033[m\n' "从||˶╹ᗜ╹˶||从"
 elif [ $i -eq 5 ]; then
-  echo "(ζﾙ ˘ ᴗ ˚ ﾙﾍ"
+  printf '\033[94m%s\033[m\n' "(ζﾙ ˘ ᴗ ˚ ﾙﾍ"
 elif [ $i -eq 6 ]; then
-  echo "∋cc(cV..･ヮ･Vcc∈ パン食べよー"
+  printf '\033[92m%s\033[m\n' "∋cc(cV..･ヮ･Vcc∈"
 elif [ $i -eq 7 ]; then
-  echo "ｦ(*(jj ・ _ ・ﾘﾋ"
+  printf '\033[33m%s\033[m\n' "ｦ(*(jj ・ _ ・ﾘﾋ"
 elif [ $i -eq 8 ]; then
-  echo "´ω｀ スヤー"
+  printf '\033[35m%s\033[m\n' "´ω｀ ｽﾔｧ"
 elif [ $i -eq 9 ]; then
-  echo "|/cV廿ᴗ廿 V\|"
+  printf '\033[90m%s\033[m\n' "|/cV廿ᴗ廿 V\|"
 fi
