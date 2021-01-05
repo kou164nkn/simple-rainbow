@@ -1,0 +1,24 @@
+#!/bin/bash
+i=$(($RANDOM % 10))
+
+if [ $i -eq 0 ]; then
+  echo "⁄/*ｲ\`＾ᗜ＾ﾘ ﾍﾟｶｰ"
+elif [ $i -eq 1 ]; then
+  echo "@cﾒ˶ˆ ᴗ ˆ˵ﾘ"
+elif [ $i -eq 2 ]; then
+  echo "从cι˘σ ᴗ σ˘*"
+elif [ $i -eq 3 ]; then
+  echo "Jσᴗσ |bし"
+elif [ $i -eq 4 ]; then
+  echo "从||˶╹ᗜ╹˶||从"
+elif [ $i -eq 5 ]; then
+  echo "(ζﾙ ˘ ᴗ ˚ ﾙﾍ"
+elif [ $i -eq 6 ]; then
+  echo "∋cc(cV..･ヮ･Vcc∈ パン食べよー"
+elif [ $i -eq 7 ]; then
+  echo "ｦ(*(jj ・ _ ・ﾘﾋ"
+elif [ $i -eq 8 ]; then
+  echo "´ω｀ スヤー"
+elif [ $i -eq 9 ]; then
+  echo "|/cV廿ᴗ廿 V\|"
+fi
